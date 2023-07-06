@@ -47,3 +47,9 @@ export type IPriceData = {
   support: string;
   update: string;
 };
+
+export type IFeatureData = {
+  id: string;
+  title: string;
+  description: string;
+};

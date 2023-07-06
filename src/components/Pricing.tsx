@@ -10,8 +10,8 @@ export const Pricing: FC = () => {
               Manage your business like
             </h2>
             <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">
-              a digital powerhouse with our feature-rich CMS, empowering you to
-              effortlessly control and optimize your online presence.
+              a customer-centric leader, utilizing our CRM platform to nurture
+              valuable relationships and deliver exceptional experiences.
             </p>
           </div>
           <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
@@ -33,7 +33,7 @@ export const Pricing: FC = () => {
                   </span>
                 </div>
                 <div>
-                  <ul role="list" className="mb-8 space-y-4 text-left">
+                  <ul className="mb-8 space-y-4 text-left">
                     <li className="flex items-center space-x-3">
                       <svg
                         className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"

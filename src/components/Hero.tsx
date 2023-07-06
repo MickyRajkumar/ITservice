@@ -7,7 +7,8 @@ export const Hero: FC = () => {
           <div className="mr-auto place-self-center lg:col-span-7">
             <h1 className="max-w-2xl mb-4 text-3xl font-extrabold leading-none tracking-tight md:text-3xl xl:text-5xl dark:text-white">
               Unleash the Power of <br />
-              Content Management <br /> Building digital
+              Customer Relationships
+              <br /> Building digital
             </h1>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
               {`Don't let data loss bring your business to a halt. Experience
