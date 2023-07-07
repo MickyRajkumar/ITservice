@@ -93,3 +93,31 @@ export const Features: IFeatureData[] = [
       'Automate repetitive sales tasks, such as lead assignment, email sequences, and follow-up reminders, to streamline your sales process and increase productivity.'
   }
 ];
+
+export const ContactData: IFeatureData[] = [
+  {
+    id: '1',
+    title: 'Customer Support',
+    description:
+      'Sometimes you need a little help from your friends. Don’t worry… we’re here for you.',
+    page: 'contactUs',
+    button: "Let's Chat",
+    phone: '+1 8885159161'
+  },
+  {
+    id: '2',
+    title: 'Talk to Sales',
+    description:
+      'Interested in GetAmind’s software? Just pick up the phone to chat with a member of our sales team.',
+    page: 'contactUs',
+    phone: '+1 857 829 5060'
+  },
+  {
+    id: '3',
+    title: 'Partnerships',
+    description:
+      'We’re into co-marketing with awesome brands. Fill out the form here, and our Partnerships Manager will circle back.',
+    page: 'contactUs',
+    button: "Let's Chat"
+  }
+];

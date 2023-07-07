@@ -52,4 +52,7 @@ export type IFeatureData = {
   id: string;
   title: string;
   description: string;
+  page?: string;
+  button?: string;
+  phone?: string;
 };
