@@ -2,7 +2,7 @@ import { FC } from 'react';
 import Link from 'next/link';
 export const Header: FC = () => {
   return (
-    <header className="fixed w-full z-[9999]">
+    <header className={`fixed w-full z-[9999]`}>
       <nav className="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
         <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
           <Link href="https://nextjs.org">

@@ -26,8 +26,9 @@ const Home: NextPage<IPropTypes> = ({ users, error }) => {
 
   if (err) {
     return (
-      <div className="flex justify-center items-center h-full w-full">
-        <h1>Something went Wrong</h1>
+      <div className="flex justify-center items-center h-[100vh] w-full">
+        <h1 className="text-8xl font-bold">Something went Wrong</h1>
+        <p className="text-5xl font-bold">Try again Later.........</p>
       </div>
     );
   }
@@ -38,7 +39,7 @@ const Home: NextPage<IPropTypes> = ({ users, error }) => {
         <title>NextJs</title>
         <meta
           name="description"
-          content="NextJS starter template using TypeScript and Tailwind CSS, and includes VSCode + Prettier + ESLint. created By  Micky Rajkumar"
+          content="getAmind are dedicated to revolutionizing the way businesses manage their customer relationships. We understand that customer satisfaction and loyalty are crucial factors in the success of any organization. That's why we provide cutting-edge CRM solutions tailored to meet the unique needs of our clients"
         />
       </Head>
 

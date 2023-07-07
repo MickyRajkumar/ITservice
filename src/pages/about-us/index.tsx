@@ -1,8 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import FeatureCard from '../../components/FeatureCard';
 import type { NextPage } from 'next';
-import { Features } from '../../data';
 import { Footer } from '../../components/Footer';
 import { Header } from '../../components/Header';
 
@@ -13,7 +11,7 @@ const AboutUs: NextPage = () => {
         <title>NextJs | About Us</title>
         <meta
           name="description"
-          content="NextJS starter template using TypeScript and Tailwind CSS, and includes VSCode + Prettier + ESLint. created By  Micky Rajkumar"
+          content="getAmind are dedicated to revolutionizing the way businesses manage their customer relationships. We understand that customer satisfaction and loyalty are crucial factors in the success of any organization. That's why we provide cutting-edge CRM solutions tailored to meet the unique needs of our clients"
         />
       </Head>
       <div>
