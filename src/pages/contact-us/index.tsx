@@ -19,7 +19,7 @@ const ContactUs: NextPage = () => {
       <div>
         <Header />
         <div className=" mx-auto bg-white dark:bg-gray-900">
-          <div className="contactUsBack flex justify-center md:pt-44  text-black  3xl:pt-56  h-[80vh]">
+          <div className="contactUsBack flex justify-center md:pt-44  text-black  3xl:pt-56  h-[85vh]">
             <div className="w-[30%]">
               <div>
                 <h1 className="text-3xl font-bold text-center mb-8">
@@ -35,7 +35,7 @@ const ContactUs: NextPage = () => {
             </div>
           </div>
           <div className="relative w-[80%] mx-auto">
-            <div className="grid translate-y-[-140px] h-fit text-black grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid translate-y-[-150px] h-fit text-black grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {ContactData.map(item => {
                 return (
                   <FeatureCard

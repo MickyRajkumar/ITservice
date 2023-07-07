@@ -60,6 +60,11 @@ a {
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+.aboutUsBack {
+  background-image: url('../../public/about.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 
 .card {
   padding: 35px;
@@ -68,6 +73,27 @@ a {
   border-radius: 20px;
   /* background-color: rgba(36, 36, 36, 0.2); */
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.55);
+
+  backdrop-filter: blur(15px);
+}
+.intro {
+  border-radius: 20px;
+  /* background-color: rgba(36, 36, 36, 0.2); */
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.55);
+
+  backdrop-filter: blur(15px);
+}
+.cardHover:hover {
+  /* background-color: rgba(36, 36, 36, 0.2); */
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.55);
+
+  backdrop-filter: blur(15px);
+}
+.liHover {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background-color: rgba(184, 184, 184, 0.2);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.55);
+  /* color: black; */
 
   backdrop-filter: blur(15px);
 }
