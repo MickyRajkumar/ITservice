@@ -17,6 +17,11 @@ type ICompanyData = {
   bs: string;
 };
 
+export type IUsersData = {
+  name: string;
+  email: string;
+};
+
 export type IUserData = {
   id: string;
   name: string;

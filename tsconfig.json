@@ -19,7 +19,10 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "src/pages/_document.jsx"
+    "src/pages/_document.jsx",
+    "next.config.mjs",
+    "prisma/seed.mjs",
+    "src/pages/api/users.js"
   ],
   "exclude": ["node_modules"]
 }

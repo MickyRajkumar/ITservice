@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { FC } from 'react';
 export const Footer: FC = () => {
   const year = new Date().getFullYear();
@@ -12,25 +13,21 @@ export const Footer: FC = () => {
               </h3>
               <ul className="text-gray-500 dark:text-gray-400">
                 <li className="mb-4">
-                  <a href="#" className=" hover:underline">
-                    About
-                  </a>
+                  <Link href="/about-us" className=" hover:underline">
+                    <a>About</a>
+                  </Link>
                 </li>
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Careers
-                  </a>
+                  <Link href="#" className=" hover:underline">
+                    <a>Careers</a>
+                  </Link>
                 </li>
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Brand Center
-                  </a>
+                  <Link href="#" className=" hover:underline">
+                    <a>Brand Center</a>
+                  </Link>
                 </li>
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Blog
-                  </a>
-                </li>
+                <li className="mb-4"></li>
               </ul>
             </div>
             <div>
@@ -39,24 +36,27 @@ export const Footer: FC = () => {
               </h3>
               <ul className="text-gray-500 dark:text-gray-400">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Discord Server
-                  </a>
+                  <Link href="https://discord.com" className=" hover:underline">
+                    <a>Discord Server</a>
+                  </Link>
                 </li>
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Twitter
-                  </a>
+                  <Link href="https://twitter.com" className=" hover:underline">
+                    <a>Twitter</a>
+                  </Link>
                 </li>
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Facebook
-                  </a>
+                  <Link
+                    href="https://facebook.com"
+                    className=" hover:underline"
+                  >
+                    <a>Facebook</a>
+                  </Link>
                 </li>
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Contact Us
-                  </a>
+                  <Link href="/contact-us" className=" hover:underline">
+                    <a>Contact Us</a>
+                  </Link>
                 </li>
               </ul>
             </div>
