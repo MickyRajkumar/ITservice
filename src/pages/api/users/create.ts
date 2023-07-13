@@ -12,14 +12,13 @@ export default async function createUser(
 ) {
   const { name, email } = req.body;
   try {
-    await prisma.users
-      .create({
-        data: {
-          name: name,
-          email: email
-        }
-      })
-      .then(res => console.log('res', res));
+    await prisma.users.create({
+      data: {
+        name: name,
+        email: email
+      }
+    });
+    // .then(res => console.log('res', res));
 
     return res.status(201).send({ message: 'created' });
   } catch (error: any) {
@@ -31,6 +30,10 @@ export default async function createUser(
       const uniqueField = error.meta.target;
       const errorMessage = `The ${uniqueField} field must be unique.`;
       return res.status(403).send({ message: errorMessage, status: 403 });
+    } else {
+      return res
+        .status(500)
+        .send({ message: `internal server error : ${error}` });
     }
   }
 }

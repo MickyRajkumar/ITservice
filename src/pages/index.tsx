@@ -39,6 +39,7 @@ const Home: NextPage<IPropTypes> = ({ users, posts }) => {
         return res.json();
       })
       .then(data => {
+        console.log('data', data);
         setUsers(data);
       })
       .catch(error => {
@@ -55,10 +56,10 @@ const Home: NextPage<IPropTypes> = ({ users, posts }) => {
       //make sure to serialize your JSON body
       body: JSON.stringify({
         name: 'pathou',
-        email: 'myPassweaworad@gmail.com'
+        email: 'myPassweaworsdfad@gmail.com'
       })
     }).then(response => {
-      console.log(response.status);
+      console.log(response);
     });
   }, []);
 
