@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
     "start": "next start",
     "init": "prisma init",
     "db:generate": "prisma generate",
@@ -12,6 +11,7 @@
     "db:pull": "prisma db pull",
     "studio": "prisma studio",
     "lint": "next lint",
+    "build": "prisma generate && next build",
     "check-types": "tsc --pretty --noEmit",
     "check-format": "prettier --check .",
     "format": "prettier --write .",
